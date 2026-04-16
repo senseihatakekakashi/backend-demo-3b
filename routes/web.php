@@ -7,6 +7,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/products', function () {
-    return Product::all();
-});
+// Route::get('/products', function () {
+//     return Product::all();
+// });
